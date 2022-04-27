@@ -48,6 +48,15 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+# Use Cloudinary as image hosting service [https://github.com/cloudinary/cloudinary_gem]
+gem 'cloudinary', '~> 1.16.0'
+
+# Use Devise for authentication [https://github.com/heartcombo/devise]
+gem 'devise'
+
+# Use Pundit for authorization [https://github.com/varvet/pundit]
+gem 'pundit'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
